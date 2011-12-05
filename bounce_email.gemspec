@@ -19,5 +19,9 @@ Gem::Specification.new do |s|
   ["mail"].each do |gem|
     s.add_dependency *gem.split(' ')
   end
+
+  ["rake"].each do |gem|
+    s.add_development_dependency *gem.split(' ')
+  end
 end
 
